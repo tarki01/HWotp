@@ -50,3 +50,9 @@ curl -X POST http://localhost:8080/api/otp/**validate** \
   -H "Content-Type: application/json" \
   -d '{"operationId":"payment-123","code":"123456"}'
 ```
+
+## Очень важно:
+
+### 1. Чтобы не был занят порт 8080
+
+### 2. Правильный ввод пользовательских данных для БД (Postgres) в файле application.properties
